@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reader's Spot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav><h1>READER'S SPOT</h1></nav>
+
+    <div class="container">
+        <div class="book-container">
+            <h3>ALONE</h3>
+            <h4>Varonica Chiam Simon</h4>
+            <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni neque libero unde voluptates dicta repellat! Dolorum rerum obcaecati numquam ab.</p>    
+            <button class="btn" onclick="deletebook(event)">Delete</button>
+    
+           <button class="add" id="addbtn">+</button>
+    
+        </div>
+       
+        <div class="popup-overlay"></div>
+    <div class="popup-box">
+        <h2>Add Book</h2>
+        <form class="new">
+            <input type="text" placeholder="book-title" id="title">
+            <input type="text" placeholder="book-author" id="author">
+             <textarea placeholder="short-description" id="textarea"></textarea>
+             <button id="addbook">Add</button>
+             <button id="cancelbook">Cancel</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

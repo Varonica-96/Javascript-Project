@@ -1,0 +1,119 @@
+nav{
+    margin: 0 ;
+    padding: 10px;
+   text-align: center;
+    background-color:gold;
+    color: black;
+    height: 50px;
+}
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:khaki;
+}
+h4{
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+.container{
+    padding: 10px;
+}
+.book-container{
+    margin: 20px;
+    background-color: rgb(175, 5, 85);
+    color: rgb(3, 255, 116);
+    padding: 15px ;
+    border-radius: 10%;
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;
+}
+.para{
+   width: 90%;
+   text-align:justify;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   color:  rgb(3, 255, 116);
+}
+.btn{
+    margin-top: 30px;
+    background-color: rgb(54, 10, 175);
+   color: white;
+   padding: 10px;
+   border: none;
+   border-radius: 20%;
+}
+.add{
+    border-radius: 100%;
+    background-color: red;
+    color: rgb(12, 11, 11);
+    border-color: red;
+    position: fixed;
+    padding: 20px 30px;
+    bottom: 30px;
+    right: 30px;
+    font-size: 40px;
+    border: none;
+}
+.popup-overlay{
+    background-color: black;
+    position: absolute;
+    opacity: 0.8;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: none;
+}
+.popup-box{
+    background-color: rgb(221, 122, 122);
+    padding: 40px;
+    position: absolute;
+    width: 40%;
+    border-radius: 10px;
+    top: 20%;
+    left: 30%;
+    z-index: 2;
+    display: none;
+}
+.popup-box input{
+    background: transparent;
+    border: none;
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-bottom: solid black 2px;
+}
+.popup-box textarea{
+    background: transparent;
+    border: none;
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: solid black 2px;
+}
+.popup-box input::placeholder{
+    color: black;
+}
+.popup-box textarea::placeholder{
+    color: black;
+}
+.popup-box button{
+    padding: 20px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 20%;
+    color: black;
+    background-color: brown;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.popup-box input:focus{
+    outline: none;
+}
+.popup-box textarea:focus{
+    outline: none;
+}
+
